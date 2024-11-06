@@ -58,9 +58,9 @@ public class PhotobookMenu : MonoBehaviour
        // Debug.Log(polariod.sprite);
 
         return photo;
-
-
     }
+
+    
 
     void CreatePageSet(GameObject Photobook, int setNum){
 
