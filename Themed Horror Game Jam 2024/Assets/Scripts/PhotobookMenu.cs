@@ -47,7 +47,7 @@ public class PhotobookMenu : MonoBehaviour
 
         RectTransform photoRectTransform = photo.GetComponent<RectTransform>();
 
-        photoRectTransform.anchoredPosition = new Vector2(0, 0);
+        photoRectTransform.anchoredPosition = Vector2.zero;
         photoRectTransform.sizeDelta = new Vector2(photoWidth, photoHeight);
         photoRectTransform.name = "Photo_" + (pageNum);
 
