@@ -6,7 +6,7 @@ using UnityEngine.UI;
 using UnityEngine;
 using Unity.VisualScripting.Antlr3.Runtime;
 //using UnityEngine.UIElements;
-
+[RequireComponent(typeof("AudioSource"))]
 public class PhotobookMenu : MonoBehaviour
 {
     public KeyCode openPhotobookKey = KeyCode.Tab;
